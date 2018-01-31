@@ -1,0 +1,2 @@
+cmake -DCUDA_ENABLE=OFF .
+make -j 16
