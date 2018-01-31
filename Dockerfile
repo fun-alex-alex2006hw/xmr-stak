@@ -21,6 +21,8 @@ RUN apt-get update \
     && apt-get purge -y -qq cmake cuda-core-9-0 git cuda-cudart-dev-9-0 libhwloc-dev libmicrohttpd-dev \
         libssl-dev ocl-icd-opencl-dev \
     && apt-get clean -qq
+RUN echo 128 > /proc/sys/vm/nr_hugepages &
+COPY ./scripts/rc.local /etc/rc.local
 
 VOLUME /mnt
 
