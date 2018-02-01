@@ -1,6 +1,0 @@
-sudo apt-get update
-sudo  apt-get -y install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ \
-     build-essential cmake libboost-all-dev miniupnpc libunbound-dev graphviz doxygen libunwind8-dev pkg-config libssl-dev \
-     libcurl4-openssl-dev libgtest-dev libreadline-dev libminiupnpc-dev libzmq3-dev ocl-icd-opencl ocl-icd-opencl-dev
-
-
